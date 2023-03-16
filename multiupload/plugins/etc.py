@@ -26,7 +26,7 @@ async def start(event):
 	else:
 		await anjana.send_file(event.chat_id, random.choice(s), reply_to=event)
 		await event.reply(f"Hey [{xx.first_name}]({xx.id}), I am **MultiUploader**", buttons=[
-				Button.url('Support Chat 💭', 't.me/hxsupport')
+				Button.url('Support Channel 💭', 't.me/llathu63035')
 			])
 
 
@@ -49,8 +49,8 @@ async def help(event):
 ● `/tninja` - Upload files to TmNinja
 ● `/fileio` - Upload files to FileIO
 ● `/mixdrop` - Upload files to MixDrop
-✦ **Powered By [oVoIndia]**(https://github.com/oVoIndia)
-✦ Made with ♥️ by [HxBots](t.me/hxbots)'''
+✦ **Powered By [NTM]**(https://llathu63035)
+✦ Made with ♥️ by [LATHEESH](t.me/sula20062007)'''
 		await event.reply(helpmsg, buttons=[
 				Button.url('Support Chat 💭', 't.me/hxsupport')
 			], link_preview=False)
