@@ -52,5 +52,5 @@ async def help(event):
 ✦ **Powered By [NTM]**(https://llathu63035)
 ✦ Made with ♥️ by [LATHEESH](t.me/sula20062007)'''
 		await event.reply(helpmsg, buttons=[
-				Button.url('Support Chat 💭', 't.me/hxsupport')
+				Button.url('Support Channel 💭', 't.me/llathu63035')
 			], link_preview=False)
