@@ -56,7 +56,7 @@ Server: AnonFile
 NOTE: Cant find notes. Its also anonymous 🤕'''
     await msg.edit(hmm, buttons=(
         [Button.url('📦 Download', r.json()["data"]["file"]["url"]["short"])],
-        [Button.url('Support Chat 💭', 't.me/hxsupport')]
+        [Button.url('Support Channel 💭', 't.me/llathu63035')]
         ))
 
     os.remove(result.name)
